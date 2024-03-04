@@ -10,7 +10,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:f49d6e62-525f-4531-9083-0c8dc520caa7#",
+                    "vocab": "https://github.com/JonasGierlich/polygonidschemas/blob/main/CoffeePass.jsonld",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "Mitarbeiter": {
                         "@id": "polygon-vocab:Mitarbeiter",
