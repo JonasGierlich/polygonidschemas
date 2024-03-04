@@ -6,6 +6,7 @@
             "id": "@id",
             "type": "@type",
             "CoffeePass": {
+		"@id": "https://github.com/JonasGierlich/polygonidschemas/blob/main/CoffeePass.jsonld",
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
@@ -15,8 +16,7 @@
                         "@id": "polygon-vocab:Mitarbeiter",
                         "@type": "xsd:integer"
                     }
-                },
-                "@id": "urn:uuid:b452515a-3de4-4e75-a5c3-6855661e8eb9"
+                }
             }
         }
     ]
