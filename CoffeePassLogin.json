@@ -90,28 +90,6 @@
             ],
             "type": "object"
         },
-        "credentialStatus": {
-            "description": "Allows the discovery of information about the current status of the credential, such as whether it is suspended or revoked.",
-            "title": "Credential Status",
-            "properties": {
-                "id": {
-                    "description": "Id URL of the credentialStatus.",
-                    "title": "Id",
-                    "format": "uri",
-                    "type": "string"
-                },
-                "type": {
-                    "description": "Expresses the credential status type (method). The value should provide enough information to determine the current status of the credential.",
-                    "title": "Type",
-                    "type": "string"
-                }
-            },
-            "required": [
-                "id",
-                "type"
-            ],
-            "type": "object"
-        }
     },
     "required": [
         "credentialSubject",
