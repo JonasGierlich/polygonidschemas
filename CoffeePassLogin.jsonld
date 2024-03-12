@@ -1,0 +1,23 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "CoffeePassLogin": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:d30ef442-161a-46ab-9a3a-f20777410cf4#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "login-code": {
+                        "@id": "polygon-vocab:login-code",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:ecd9133b-e67a-4de6-b7d2-fddfb6abd898"
+            }
+        }
+    ]
+}
