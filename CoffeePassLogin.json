@@ -89,7 +89,7 @@
                 "type"
             ],
             "type": "object"
-        },
+        }
     },
     "required": [
         "credentialSubject",
